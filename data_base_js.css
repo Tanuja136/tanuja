@@ -1,0 +1,11 @@
+body{
+    position: relative;
+}
+.my_table{
+    background-color: rgb(241, 111, 245);
+}
+p{
+    background-color: red;
+    color: white;
+    padding: 5px;
+}

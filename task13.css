@@ -1,0 +1,169 @@
+.main{
+    height: 450px;
+    width: 450px;
+    border: 7px solid black;
+    border-radius: 100%;
+    background-color: #e6dada;
+    box-shadow: 2px 2px 10px black;
+}
+*{
+    color: white;
+}
+body{
+    height: 100svh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clock{
+    height: 400px;
+    width: 400px;background: rgb(245,242,242);
+    background: radial-gradient(circle, rgba(245,242,242,1) 0%, rgba(10,10,10,1) 100%);
+    border: 5px solid black;
+    border-radius: 100%;
+    position: relative;
+    top: 22px;
+    left: 22px;
+}
+.a12{
+    position: absolute;
+    left: 45%;
+    top: 2%;
+    font-size: 300%;
+    font-weight: 600;
+}
+.a1{
+    position: absolute;
+    right: 23%;
+    top: 11%;
+    font-size: 200%;
+}
+.a2{
+    position: absolute;
+    right: 10%;
+    top: 25%;
+    font-size: 200%;
+}
+.a3{
+    position: absolute;
+    right: 3%;
+    top: 42%;
+    font-size: 300%;
+    font-weight: 600;
+}
+.a11{
+    position: absolute;
+    left: 23%;
+    top: 11%;
+    font-size: 200%;
+}
+.a10{
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    font-size: 200%;
+}
+.a9{
+    position: absolute;
+    left: 3%;
+    top: 42%;
+    font-size: 300%;
+    font-weight: 600;
+}
+.a6{
+    position: absolute;
+    left: 45%;
+    bottom: 2%;
+    font-size: 300%;
+    font-weight: 600;
+}
+.a5{
+    position: absolute;
+    right: 23%;
+    bottom: 11%;
+    font-size: 200%;
+}
+.a4{
+    position: absolute;
+    right: 10%;
+    bottom: 25%;
+    font-size: 200%;
+}
+.a7{
+    position: absolute;
+    left: 23%;
+    bottom: 11%;
+    font-size: 200%;
+}
+.a8{
+    position: absolute;
+    left: 10%;
+    bottom: 25%;
+    font-size: 200%;
+}
+.point {
+    height: 1px;
+    width: 1px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hrs, .min, .sec {
+    position: absolute;
+    bottom: 50%;
+    transform-origin: bottom;
+}
+
+.hrs {
+    height: 100px;
+    width: 3px; 
+    background-color: black; 
+    animation: hrs 43200s infinite linear;
+}
+
+.min {
+    height: 130px;
+    width: 2px; 
+    background-color: rgb(49, 46, 46); 
+    animation: min 3600s infinite linear; 
+}
+
+.sec {
+    height: 180px;
+    width: 1px; 
+    background-color: rgb(255, 51, 0); 
+    animation: sec 60s infinite linear; 
+}
+
+@keyframes sec {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes min {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes hrs {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

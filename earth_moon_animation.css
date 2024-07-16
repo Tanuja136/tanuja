@@ -1,0 +1,66 @@
+
+.main{
+    height: 100svh;
+    width: 100%;
+    background-color: #000000;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3%;
+    background-image: url(./background.jpg);
+}
+.earth{
+    height: 30%;
+    width: 18%;
+    background-color: rgb(83, 164, 238);
+    border-radius: 100%;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    overflow: hidden;
+    box-shadow: 9px 0px 15px rgb(125, 162, 242);
+}
+.moon{
+    height: 15%;
+    width:8%;
+    background-color: whitesmoke;
+    border-radius: 100%;
+    box-shadow: 4px 3px 15px whitesmoke;
+    overflow: hidden;
+    position: absolute;
+    left: 45%;
+    top: 40%;
+    z-index: 1;
+    animation-name: solar_system;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.i1{
+    height: 100%;
+    width: 100%;
+}
+.earth:hover{
+    transform: scale(1.1);
+}
+.moon:hover{
+    transform: scale(1.1);
+}
+
+
+
+@keyframes solar_system{
+    0%{
+        transform: rotate(0deg) translate(330px);
+    }
+    100%{
+        transform: rotate(360deg) translate(330px);
+    }
+}
+@keyframes earth{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

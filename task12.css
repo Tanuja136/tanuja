@@ -1,0 +1,111 @@
+body{
+    height: 100svh;
+    width: 100%;
+}
+.main1{
+    height: 350px;
+    width: 1400px;background: rgb(24,24,24);
+    background: linear-gradient(0deg, rgba(24,24,24,1) 0%, rgba(245,249,250,1) 100%);
+    
+    position: relative;
+    animation-name: tanu;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+.main2{
+    height: 350px;
+    width: 1400px;
+    background: rgb(105,220,239);
+    background: linear-gradient(0deg, rgba(105,220,239,1) 0%, rgba(245,249,250,1) 100%);
+    
+    position: relative;
+    animation-name: tanu1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+.moon{
+    height: 130px;
+    width: 130px;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    left: 650px;
+    top: 300px;
+    animation-name: my_animation;
+    animation-duration: 6s;
+    z-index: 1;
+    animation-iteration-count: infinite;
+    box-shadow: 2px 3px 15px white;
+}
+.sun{
+    height: 130px;
+    width: 130px;
+    background-color: rgb(247, 67, 12);
+    border-radius: 100%;
+    position: absolute;
+    left: 650px;
+    bottom: 300px;
+    animation-name: my_animation1;
+    animation-duration: 6s;
+    z-index: 1;
+    animation-iteration-count: infinite;
+    box-shadow: 3px 3px 15px rgb(239, 67, 67);
+}
+
+
+@keyframes my_animation{
+    0%{
+        transform: rotate(0deg) translate(250px);
+    }
+    25%{
+        transform: rotate(90deg) translate(250px);
+    }
+    50%{
+        transform: rotate(180deg) translate(250px);
+    }
+    75%{
+        transform: rotate(270deg) translate(250px);
+    }
+    100%{
+        transform: rotate(360deg) translate(250px);
+    }
+}
+@keyframes my_animation1{
+    0%{
+        transform: rotate(180deg) translate(250px);
+    }
+    25%{
+        transform: rotate(270deg) translate(250px);
+    }
+    50%{
+        transform: rotate(360deg) translate(250px);
+    }
+    75%{
+        transform: rotate(450deg) translate(250px);
+    }
+    100%{
+        transform: rotate(540deg) translate(250px);
+    }
+}
+@keyframes tanu{
+    0%{
+        background: rgb(105,220,239);
+        background: linear-gradient(0deg, rgba(105,220,239,1) 0%, rgba(245,249,250,1) 100%);
+        
+    }
+    100%{background: rgb(24,24,24);
+        background: linear-gradient(0deg, rgba(24,24,24,1) 0%, rgba(245,249,250,1) 100%);
+        
+    }
+}
+@keyframes tanu1{
+    0%{background: rgb(24,24,24);
+        background: linear-gradient(0deg, rgba(24,24,24,1) 0%, rgba(245,249,250,1) 100%);
+        
+    }
+    100%{
+        background: rgb(105,220,239);
+        background: linear-gradient(0deg, rgba(105,220,239,1) 0%, rgba(245,249,250,1) 100%);
+        
+    }
+}

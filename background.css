@@ -1,0 +1,11 @@
+.main{
+    height: 500px;
+    width: 500px;
+    border: 2px solid blue;
+    background-color: beige;
+    background-image: url("./brtdyy.jpg");
+    background-size: 100% 100%;
+    color: transparent;
+    background-clip: text;
+    font-size: 180px;
+}

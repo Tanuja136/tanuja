@@ -1,0 +1,245 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./registration_js.css">
+        <script src="./registration_js.js"></script>
+    </head>
+    <body>
+        <div class="main">
+            <h2>REGISTRATION FORM</h2>
+
+            <div class="s1">
+                <div class="a1"><label>First Name:  </label></div>
+                <div class="a2"><input type="text" placeholder="Enter your first name" onchange = "firstname(event)"/></div>
+            </div>
+            
+            <div class="s1">
+                <div class="a1"><label>Last Name:</label></div>
+                <div class="a2"><input type="text" placeholder="Enter your last name" onchange = "secondname(event)"/></div>
+            </div>
+
+            <div class="s1">
+                <div class="a1"><label>DOB: </label></div>
+                <div class="a2"><input type="date" onchange = "dob(event)"/></div>
+            </div>
+            
+            <div class="s1">
+                <div class="a1"><label>Father Name:</label></div>
+                <div class="a2"><input type="text" placeholder="Enter your father name" onchange = "fathername(event)"/></div>
+            </div>
+            
+            <div class="s1">
+                <div class="a1"><label>Mother Name:</label></div>
+                <div class="a2"><input type="text" placeholder="Enter your mother name" onchange = "mothername(event)"/></div>
+            </div>
+            
+            <div class="s1">
+                <div class="a1"><label>Address:</label></div>
+                <div class="a2"><input type="text" placeholder="Enter your address" onchange = "address(event)"/></div>
+            </div>
+            
+            <div class="s1">
+                <div class="a1"><label>Gender:</label></div>
+                <div class="a2"><input type="radio" name="gender" onchange = "gender(event)"/>Male
+                    <input type="radio" name="gender" onchange = "gender(event)"/>Female</div>
+            </div>
+            
+            <div class="s1">
+                <div class="a1"><label>Certifications:</label></div>
+                <div class="a2"><input type="text" placeholder="Enter your Certifications" onchange = "certify(event)"/></div>
+            </div>
+            
+            
+            <div class="s4">
+            <div class="lab"><label>Academic Details:</Details></label> <br><br></div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>N.I</th>
+                        <th>Y O P</th>
+                        <th>Percentage</th>
+                        <th>Marks</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>SSC</td>
+                        <td><input class="i1" type="text" onchange="yop_1(event)"></td>
+                        <td><input class="i1" type="text" onchange="per_1(event)"></td>
+                        <td><input class="i1" type="text" onchange="marks_1(event)"></td>
+                    </tr>
+                    <tr>
+                        <td>INTER</td>
+                        <td><input class="i1" type="text" onchange="yop_2(event)"></td>
+                        <td><input class="i1" type="text" onchange="per_2(event)"></td>
+                        <td><input class="i1" type="text" onchange="marks_2(event)"></td>
+                    </tr>
+                    <tr>
+                        <td>BTECH</td>
+                        <td><input class="i1" type="text" onchange="yop_3(event)"></td>
+                        <td><input class="i1" type="text" onchange="per_3(event)"></td>
+                        <td><input class="i1" type="text" onchange="marks_3(event)"></td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            
+            <div class="s1">
+                <div class="a1"><label>Skills:</label></div>
+                <div class="a2"><input type="text" placeholder="Enter your skills" onchange = "skills(event)"/></div>
+            </div>
+            
+            <div class="s1">
+                <div class="a1"><label>Hobbies:</label></div>
+                <div class="a2"><input type="text" placeholder="Enter your Hobbies" onchange = "hobies(event)"/></div>
+            </div>
+            
+            <div class="s1">
+                <div class="a1"><label>Profile pic:</label></div>
+                <div class="a2"><input type="file" onchange = "profile(event)"/></div>
+            </div>
+            
+            <div class="s1">
+                <div class="a1"><label>Badges:</label></div>
+                <div class="a2"><input type="text" placeholder="Enter your Badges" onchange = "badges(event)"/></div>
+            </div>
+            
+            <div class="s1">
+                <div class="a1"><label>Description:</label></div>
+                <div class="a2"><input type="text" placeholder="Enter Description" onchange = "description(event)"/></div>
+            </div>
+            
+            <div class="s2">
+                <button class="btn" onclick="submit(event)">SUBMIT</button>
+            </div>
+            
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+        <!-- <div class="main">
+            <br><label>First Name:</label>
+            <input type="text" onchange = "firstname(event)"/><br><br>
+            <label>Second Name:</label>
+            <input type="text" onchange = "secondname(event)"/><br><br>
+            <label>DOB: </label>
+            <input type="date" onchange = "dob(event)"/><br><br>
+            <label>Father Name:</label>
+            <input type="text" onchange = "fathername(event)"/><br><br>
+            <label>Mother Name:</label>
+            <input type="text" onchange = "mothername(event)"/><br><br>
+            <label>Address:</label>
+            <input type="text" onchange = "address(event)"/><br><br>
+            <label>Gender:</label>
+            <input type="radio" name="gender" onchange = "gender(event)"/>Male
+            <input type="radio" name="gender" onchange = "gender(event)"/>Female<br><br>
+            <label>Certifications:</label>
+            <input type="text" onchange = "certify(event)"/><br><br>
+            
+            
+            <label>Academic Details:</Details></label> <br><br>
+            <table>
+                <thead>
+                    <tr>
+                        <th>N.I</th>
+                        <th>Y O P</th>
+                        <th>Percentage</th>
+                        <th>Marks</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>SSC</td>
+                        <td><input type="text" onchange="yop_1(event)"></td>
+                        <td><input type="text" onchange="per_1(event)"></td>
+                        <td><input type="text" onchange="marks_1(event)"></td>
+                    </tr>
+                    <tr>
+                        <td>INTER</td>
+                        <td><input type="text" onchange="yop_2(event)"></td>
+                        <td><input type="text" onchange="per_2(event)"></td>
+                        <td><input type="text" onchange="marks_2(event)"></td>
+                    </tr>
+                    <tr>
+                        <td>BTECH</td>
+                        <td><input type="text" onchange="yop_3(event)"></td>
+                        <td><input type="text" onchange="per_3(event)"></td>
+                        <td><input type="text" onchange="marks_3(event)"></td>
+                    </tr>
+                </tbody>
+            </table><br><br>
+
+            <label>Skills:</label>
+            <input type="text" onchange = "skills(event)"/><br><br>
+            <label>Hobbies:</label>
+            <input type="text" onchange = "hobies(event)"/><br><br>
+            <label>Profile pic:</label>
+            <input type="file" onchange = "profile(event)"/><br><br>
+            <label>Badges:</label>
+            <input type="text" onchange = "badges(event)"/><br><br>
+            <label>Description:</label>
+            <input type="text" onchange = "description(event)"/><br><br>
+            <button onclick="submit(event)">SUBMIT</button>
+            </div>  -->
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>

@@ -1,0 +1,29 @@
+.parent{
+    height: 100svh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.upper{
+    height: 33%;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+}
+.middle{
+    height: 33%;
+    width: 100%;
+    background-color: rgb(249, 182, 95);
+}
+.lower{
+    height: 33%;
+    width: 100%;
+    background-color: rgb(193, 191, 189);
+}
+.p1{
+    height: 100%;
+    width: 20%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}

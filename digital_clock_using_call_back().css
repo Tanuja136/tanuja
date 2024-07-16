@@ -1,0 +1,19 @@
+body{
+    height: 100svh;
+    width: 100svh;
+    position: relative;
+}
+.main{
+    height: 300px;
+    width: 600px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    font-size: 120px;
+    color: white;
+}

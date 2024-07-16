@@ -1,0 +1,300 @@
+.main{
+    height: 100svh;
+    width: 1600px;
+    background-color: blanchedalmond;
+}
+.sub1{
+    height: 50%;
+    background: linear-gradient(to top right,#185A7D,#7DCBC5);
+    position: relative;
+}
+.sub2{
+    height: 50%;
+    background-color: #82CFC7;
+    position: relative;
+}
+.header{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #159fb8;
+}
+.h1{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    position: relative;
+}
+.h2{
+    height: 100%;
+    width: 80%;
+    display: flex;
+}
+.h3{
+    height: 100%;
+    width: 10%;
+    position: relative;
+}
+.h11{
+    height: 36%;
+    width: 13%;
+    border: 2px solid #0D252B;
+    box-shadow: 10px 10px 0px #0D252B;
+    border-radius: 5px;
+    position: absolute;
+    left: 15;
+    top: 19%;
+}
+.h12{
+    font-size: 247%;
+    position: absolute;
+    right: 5px;
+    top: 10%;
+    font-weight: 900;
+    color: rgb(56, 55, 55);
+}
+.h21{
+    height: 100%;
+    width: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 120%;
+    color: white;
+}
+.h22{
+    height: 100%;
+    width: 17%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 120%;
+    color: #14c1f1;
+}
+.h31{
+    font-size: 270%;
+    position: absolute;
+    right: 25%;
+    top: 10%;
+    color: white;
+}
+.text1{
+    height: 20%;
+    width: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    font-size: 450%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 900;
+
+}
+.text2{
+    height: 10%;
+    width: 70%;
+    position: absolute;
+    left: 15%;
+    top: 38%;
+    font-size: 180%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #247188;
+    font-weight: 600;
+
+}
+.text3{
+    height: 16%;
+    width: 60%;
+    background-color: white;
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    border-radius: 50px;
+    position: relative;
+    display: flex;
+}
+.t1{
+    height: 100%;
+    width: 10%;
+    font-size: 200%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    color: #a0a6a8;
+}
+.t2{
+    height: 100%;
+    width: 70%;
+    font-size: 190%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #9fa3a4;
+}
+.t3{
+    height: 70%;
+    width: 18%;
+    background-color: #82CFC7;
+    font-size: 190%;
+    position: absolute;
+    right: 15;
+    top: 10;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.a1{
+    height: 110%;
+    width: 25%;
+    background-color: white;
+    position: absolute;
+    top: -22%;
+    left: 15%;
+    border-radius: 15px;
+}
+.a2{
+    height: 110%;
+    width: 43%;
+    background-color: #159fb8;
+    position: absolute;
+    top: -22%;
+    right: 15%;
+    border-radius: 15px;
+    background-image: url("./graph4.jpg");
+    background-size: cover;
+}
+.a11{
+    height: 10%;
+    width: 100%;
+    position: absolute;
+    top: 3%;
+    display: flex;
+}
+.b1{
+    height: 100%;
+    width: 84%;
+    font-size: 200%;
+    font-weight: 900;
+    position: absolute;
+    left: 5%;
+    color: rgb(79, 79, 79);
+}
+.b2{
+    height: 78%;
+    width: 8%;
+    background-color: #04B2F3;
+    position: absolute;
+    right: 5%;
+    top:8%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.a12{
+    height: 30%;
+    width: 80%;
+    /* background-color: #04B2F3; */
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    font-size: 153%;
+    color: #848788;
+}
+.a13{
+    height: 50%;
+    width: 70%;
+    position: absolute;
+    top: 43%;
+    left: 10%;
+    background-image: url("logotask8.jpg.png");
+    background-size: cover;
+}
+.a21{
+    height: 100%;
+    width: 84%;
+    font-size: 200%;
+    font-weight: 900;
+    position: absolute;
+    left: 5%;
+    top: 4%;
+    color: rgb(244, 238, 238);
+}
+.a22{
+    height: 8%;
+    width: 6%;
+    background-color: #04B2F3;
+    position: absolute;
+    right: 5%;
+    top:4%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.a23{
+    height: 30%;
+    width: 82%;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    font-size: 153%;
+    color: rgb(229, 218, 218);
+}
+.a24{
+    height: 10%;
+    width: 18%;
+    background-color: #82CFC7;
+    font-size: 100%;
+    position: absolute;
+    left: 5%;
+    top: 45%;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.a25{
+    height: 10%;
+    width: 40%;
+    position: absolute;
+    bottom: 5%;
+    display: flex;
+}
+.c2{
+    height: 100%;
+    width: 50%;
+    font-size: 160%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: whitesmoke;
+}
+.c1{
+    height: 100%;
+    width: 26%;
+    font-size: 200%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #82CFC7;
+}
+.a26{
+    height: 10%;
+    width: 5%;
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    font-size: 190%;
+    color: rgb(231, 226, 226);
+}

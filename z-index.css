@@ -1,0 +1,12 @@
+.main{
+    height: 300px;
+    width: 300px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+}
+h1{
+    position: relative;
+    z-index: 6;
+}

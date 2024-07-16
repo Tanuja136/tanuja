@@ -1,0 +1,51 @@
+
+body{
+display: flex;
+height: 100svh;
+width:100%;
+justify-content: center;
+margin:0px;
+padding: 0px;
+}
+.main{
+    
+    border: 2px solid black;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.ch1{
+    display: flex;
+    height: 400px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    border: 1px solid black;
+    font-size: 32px;
+}
+.inner_child{
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-around;
+}
+ul button{
+    display: none;
+}
+.slick-dots{
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    gap : 20px;
+    font-size: 32px;
+}
+.slick-active{
+    color: red;
+}

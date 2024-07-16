@@ -1,0 +1,57 @@
+body{
+    position: relative;
+    perspective: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    position: relative;
+    perspective: 50px;
+}
+.a2{
+    height: 250px;
+    width: 100px;
+    background-color: rgb(245, 145, 208);
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    transform-style: preserve-3d;
+    transform: rotatey(90deg);
+
+}
+.a3{
+    height: 250px;
+    width: 100px;
+    background-color: rgb(248, 197, 79);
+    position: absolute;
+    top: 25%;
+    right: 15%;
+    transform-style: preserve-3d;
+    transform: rotatey(90deg);
+}
+.a4{
+    height: 100px;
+    width: 250px;
+    background-color: rgb(81, 136, 136);
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    transform-style: preserve-3d;
+    transform: rotateX(-90deg);
+}
+.a5{
+    height: 100px;
+    width: 250px;
+    background-color: rgb(135, 192, 117);
+    position: absolute;
+    bottom: 16%;
+    left: 25%;
+    transform-style: preserve-3d;
+    transform: rotateX(90deg);
+}
+
+

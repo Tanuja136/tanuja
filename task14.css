@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 300px;
+}
+.main{
+    height: 150px;
+    width: 550px;
+    background-color: aquamarine;
+    border-radius: 100px;
+    position: relative;
+    background-image: url("./cloud.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 3s;
+}
+.main:hover{
+    top: 0;
+    background-image: url("./night.jpg");
+    background-size: 100% 100%;
+}
+.main::after{
+    content: "";
+    height: 130px;
+    width: 150px;
+    border-radius: 100%;
+    background-color: rgb(236, 137, 6);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transition: all 3s;
+    overflow: hidden;
+}
+.main:hover::after{
+    left: 390px;
+    background-image: url("./moon1.jpg");
+    background-size: 100% 100%;
+
+}

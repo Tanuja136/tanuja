@@ -1,0 +1,47 @@
+body{
+    height: 100svh;
+    width: 100%;
+    background: rgb(90,240,180);
+    background: radial-gradient(circle, rgba(90,240,180,1) 6%, rgba(236,233,246,1) 100%);
+}
+.parent{
+    height: 200px;
+    width: 700px;
+    position: absolute;
+    /* background-color: aliceblue; */
+    top: 18%;
+    left: 31%;
+    display: flex;
+    gap: 20px;
+}
+.hours,.minutes,.seconds{
+    height: 100%;
+    width: 34%;
+    background-color: black;
+    border-radius: 20px;
+    font-size: 80px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.start,.stop,.reset{
+    position: absolute;
+    bottom: 30%;
+    padding: 18px 50px;
+    border-radius: 20px;
+    background: rgb(239,45,76);
+    background: radial-gradient(circle, rgba(239,45,76,1) 24%, rgba(245,245,246,1) 100%);
+    font-size: 18px;
+    font-weight: 600;
+}
+.start{
+    left: 28%;
+}
+.stop{
+    left: 49%;
+}
+.reset{
+    left: 70%;
+}

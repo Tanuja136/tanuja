@@ -1,0 +1,42 @@
+body{
+    background-image: url('./bg111.jpg');
+    background-size: cover;
+}
+.my_table{
+    border: none;
+    box-shadow: 0px 0px 15px 10px rgb(245, 240, 239);
+}
+.button_1{
+    background: rgb(244,248,248);
+    background: radial-gradient(circle, rgba(244,248,248,1) 0%, rgba(85,39,238,1) 100%);
+}
+.remove-btn{
+    background-color: red;
+    padding: 5px;
+    color: white;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+}
+.update-btn{
+    background-color: green;
+    padding: 5px;
+    color: white;
+    font-weight: 300;
+}
+tr{
+    font-size: 19px;
+    background-color: #CCE6EC;
+}
+th{
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(221, 86, 86);
+}
+input{
+    height: 25px;
+    background-color: rgb(239, 192, 192) ;
+    border: none;
+    color: rgb(58, 78, 85);
+    font-weight: 600;
+}
